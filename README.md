@@ -1,5 +1,5 @@
 # Class Organizer
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/musfiqus/class-organizer/blob/master/LICENSE.md)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/hrid0ybd/DIU-class-organizer/blob/master/LICENSE.md)
 
 **A simple and modern looking routine management app for Android.<br>
 Built for the students of Daffodil International University.**
@@ -37,7 +37,7 @@ Built for the students of Daffodil International University.**
 
 ## Maintainer
 
-Mushfiqus Salehin ([@musfiqus](http://mushfiqussalehin.com))
+Hridoy Ahmed([@hrid0ybd](http://mushfiqussalehin.com))
 
 ## License
 
