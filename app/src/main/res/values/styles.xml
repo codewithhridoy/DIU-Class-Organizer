@@ -1,0 +1,139 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="colorControlNormal">@color/text_color_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="md_medium_font">Poppins-Medium.ttf</item>
+        <item name="md_regular_font">Poppins-Regular.ttf</item>
+
+        <!-- specify enter and exit transitions -->
+    </style>
+
+    <style name="AppTheme.SplashTheme" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <style name="AppTheme.Intro" parent="Theme.Intro">
+        <item name="colorPrimary">@color/text_color_light</item>
+        <item name="colorPrimaryDark">@color/text_color_dark</item>
+        <item name="colorAccent">@color/text_color_dark</item>
+
+
+        <item name="android:textColorPrimary">@color/text_color_dark</item>
+        <item name="dialogCornerRadius">@dimen/dialog_corner_radius</item>
+
+    </style>
+
+    <style name="AppTheme.NoBullshitIconButton" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="rippleColor">@color/text_color_dark</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+
+    <style name="AppTheme.NoBullshitTextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textColor">?colorAccent</item>
+    </style>
+    <style name="AppTheme.LightDialog" parent="Base.Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="dialogCornerRadius">8dp</item>
+        <item name="colorAccent">?colorAccent</item>
+        <!--<item name="colorControlNormal">@color/text_color_light</item>-->
+    </style>
+
+    <style name="AppTheme.OutlineTextBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="colorControlActivated">@color/text_color_dark</item>
+        <item name="colorControlNormal">@color/text_color_light</item>
+        <item name="boxCornerRadiusBottomEnd">100dp</item>
+        <item name="boxCornerRadiusBottomStart">100dp</item>
+        <item name="boxCornerRadiusTopEnd">100dp</item>
+        <item name="boxCornerRadiusTopStart">100dp</item>
+        <item name="boxBackgroundColor">@color/md_grey_100</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+
+
+
+    <!-- App bar style -->
+    <style name="RoutineAppBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Style for a tab that displays weekdays name -->
+    <style name="AppTheme.Tab" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabSelectedTextColor">?colorAccent</item>
+        <item name="tabIndicatorColor">?colorAccent</item>
+        <item name="tabTextAppearance">@style/AppTheme.TabTextAppearance</item>
+    </style>
+
+    <style name="AppTheme.TabTextAppearance" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+
+
+
+    <!--//Edit text color in modify activity-->
+    <style name="Theme.edit.darkback" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlHighlight">@android:color/white</item>
+    </style>
+
+    <style name="SpinnerStyle">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="SpinnerTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="PrimaryButton" parent="AppTheme">
+        <item name="colorButtonNormal">?attr/colorPrimary</item>
+        <item name="colorControlHighlight">?attr/colorPrimaryDark</item>
+    </style>
+    <style name="SearchPageTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/md_black_1000</item>
+    </style>
+    <style name="CheckboxWhite" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorControlNormal">@android:color/white</item>   <!-- normal border color change as you wish -->
+        <item name="colorControlActivated">@android:color/white</item> <!-- activated color change as you wish -->
+        <item name="android:textColor">@android:color/white</item> <!-- checkbox text color -->
+    </style>
+
+
+
+    <style name="ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="colorAccent">@color/md_white_1000</item>
+    </style>
+
+
+</resources>

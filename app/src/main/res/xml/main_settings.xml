@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:colorpicker="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceCategory
+        android:title="Routine">
+        <Preference
+            android:key="routine_preference"
+            android:summary="Place holder summary"
+            android:title="Change Your Routine" />
+        <Preference
+            android:key="current_semester_preference"
+            android:summary="Place holder summary"
+            android:title="Current Semester" />
+        <Preference
+            android:key="reset_routine_preference"
+            android:summary="Reset all modifications included deleted, edited, added and saved routines."
+            android:title="Reset Routine" />
+
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory
+        android:title="Notifications">
+        <SwitchPreferenceCompat
+            android:key="notification_preference"
+            android:summary="Place holder"
+            android:title="Enable Class Notifications"
+            android:defaultValue="true"/>
+        <Preference
+            android:key="notification_delay_preference"
+            android:summary="Place holder"
+            android:title="Choose Time for Notifications" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="About">
+        <Preference
+            android:key="version_preference"
+            android:summary="X"
+            android:title="Current Version" />
+        <Preference
+            android:key="current_database_version_preference"
+            android:summary="Place holder summary"
+            android:title="Current Database Version" />
+        <Preference
+            android:key="developer_preference"
+            android:title="Developed by"
+            android:summary="Mushfiqus Salehin">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://mushfiqussalehin.com" />
+        </Preference>
+        <Preference
+            android:key="icon_preference"
+            android:summary="Raisul Haque Rajon"
+            android:title="Icon Design by" />
+
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>
